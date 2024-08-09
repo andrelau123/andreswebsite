@@ -1,11 +1,7 @@
 .about__container {
-  grid-template-columns: 2.4fr 9fr;
+  grid-template-columns: 3fr 9fr;
   column-gap: 1.875rem;
-  grid-template-rows: 310px;
-}
-
-.about__img {
-  position: relative;
+  grid-template-rows: 320px;
 }
 
 .about__data {
@@ -21,7 +17,7 @@
 }
 
 .about__data::before {
-  content: " ";
+  content: "";
   width: 0;
   height: 0;
   border-top: 20px solid transparent;
@@ -31,7 +27,6 @@
   left: -0.93rem;
   top: 40%;
 }
-
 .about__description {
   margin-bottom: 1rem;
   text-align: justify;
@@ -51,6 +46,11 @@
   font-weight: var(--font-medium);
 }
 
+.skills__data {
+  display: flex;
+  flex-direction: column;
+}
+
 .skills__number {
   line-height: 1.2;
 }
@@ -59,11 +59,10 @@
 .skills__percentage {
   height: 7px;
   border-radius: 0.25rem;
-  background-color: "red";
 }
 
 .skills__bar {
-  background-color: #d2c5c5;
+  background-color: #bab4b4;
 }
 
 .skills__percentage {

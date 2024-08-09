@@ -3,6 +3,7 @@ import "./about.css";
 import photo from "../../assets/andrephoto.png";
 import Example from "./Example";
 import Aboutbox from "./Aboutbox";
+import Button from "./Button";
 
 const About = () => {
   return (
@@ -16,8 +17,8 @@ const About = () => {
               hi, i'm andre and i chase opportunity. i'm 22 this year and
               currently studying information systems in NUS.
             </p>
-            <a href="" className="btn">
-              download cv
+            <a href="" className="button">
+              <Button />
             </a>
           </div>
 
@@ -25,8 +26,9 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__title">
                 <h3 className="skills__name">Java</h3>
-                <span className="skills number">90%</span>
+                <span className="skills__number">90%</span>
               </div>
+
               <div className="skills__bar">
                 <span className="skills__percentage java"></span>
               </div>
@@ -35,7 +37,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__title">
                 <h3 className="skills__name">Reactjs + React Native</h3>
-                <span className="skills number">75%</span>
+                <span className="skills__number">75%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage react"></span>
@@ -45,7 +47,7 @@ const About = () => {
             <div className="skills__data">
               <div className="skills__title">
                 <h3 className="skills__name">DaVinci Resolve + Premier Pro</h3>
-                <span className="skills number">80%</span>
+                <span className="skills__number">80%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage edit"></span>
