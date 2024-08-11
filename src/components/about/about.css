@@ -33,12 +33,13 @@
 }
 
 .about__skills {
-  row-gap: 1.25rem;
+  row-gap: 2rem;
 }
 
 .skills__title {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 7.5px;
 }
 
 .skills__name {

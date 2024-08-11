@@ -1,0 +1,81 @@
+.timeline {
+  display: grid;
+  position: relative;
+  padding: 1.875rem;
+  justify-content: center;
+}
+
+.timeline__item-active {
+  display: block;
+}
+
+.resume__container {
+}
+
+.resume__tab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.educationbutton {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.educationbutton:hover {
+  color: var(--title-color);
+}
+
+.resume__active {
+  color: var(--title-color);
+}
+
+.timeline__item {
+  position: relative;
+  padding-left: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.timeline__item::before {
+  content: " ";
+  width: 2px;
+  height: 100%;
+  background-color: var(--first-color);
+  position: absolute;
+  left: 0.25rem;
+  top: 0;
+}
+
+.timeline .icon-briefcase,
+.timeline .icon-graduation {
+  position: absolute;
+  left: -0.4375rem;
+  top: 0;
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  padding: 0.4375rem 0;
+  background-color: var(--body-color);
+}
+
+.timeline__data {
+  color: #afa1af;
+  font-size: var(--small-font-size);
+}
+
+.timeline__title {
+  font-size: var(--h3-font-size);
+  margin: 0.4rem 0;
+}
+
+.timeline__date {
+  font-size: var(--smaller-font-size);
+}
+
+.timeline__info {
+  font-size: 1rem;
+  width: 420px;
+}

@@ -9,7 +9,7 @@ const Services = () => {
       <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My technical levels</span>
 
-      <div className="skills__container grid">
+      <div className="service__container grid">
         <Frontend />
         <Backend />
       </div>

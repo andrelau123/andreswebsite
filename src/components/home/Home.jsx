@@ -7,7 +7,7 @@ import Hirebutton from "./Hirebutton";
 
 const Home = () => {
   return (
-    <section className="home container">
+    <section className="home container" id="home">
       <div className="intro">
         <img
           src={profile}

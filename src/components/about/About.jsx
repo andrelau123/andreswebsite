@@ -17,7 +17,7 @@ const About = () => {
               hi, i'm andre and i chase opportunity. i'm 22 this year and
               currently studying information systems in NUS.
             </p>
-            <a href="" className="button">
+            <a href="../../components/resume.pdf" download className="button">
               <Button />
             </a>
           </div>
@@ -25,7 +25,7 @@ const About = () => {
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__title">
-                <h3 className="skills__name">Java</h3>
+                <h3 className="skills__name">Programming</h3>
                 <span className="skills__number">90%</span>
               </div>
 
@@ -36,7 +36,7 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__title">
-                <h3 className="skills__name">Reactjs + React Native</h3>
+                <h3 className="skills__name">Leadership skills</h3>
                 <span className="skills__number">75%</span>
               </div>
               <div className="skills__bar">
@@ -46,7 +46,9 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__title">
-                <h3 className="skills__name">DaVinci Resolve + Premier Pro</h3>
+                <h3 className="skills__name">
+                  Editing: DaVinci Resolve + Premier Pro
+                </h3>
                 <span className="skills__number">80%</span>
               </div>
               <div className="skills__bar">
