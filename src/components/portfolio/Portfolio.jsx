@@ -24,7 +24,7 @@ const Portfolio = () => {
                 <img src={image} alt="image thumbnail" className="work__img" />
                 <div className="work__mask"></div>
               </div>
-              <span className="work__catagory"></span>{" "}
+              <span className="work__catagory">{catagory}</span>
               <h3 className="work__title">{title}</h3>
               <a href="" className="work__button">
                 <i className="icon-link work__button-icon"></i>
