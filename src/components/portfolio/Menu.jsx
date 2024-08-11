@@ -11,6 +11,7 @@ const Menu = [
     title: "React Native Dating App",
     catagory: "coding",
     desc: "Developed and coded a mobile dating app using React Native(frontend), FireBase and Nodejs(backend) using expo",
+    link: "https://github.com/andrelau123/Orbital-Singles-Inferno-6019-",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const Menu = [
     title: "Telegram bot in Java",
     catagory: "coding",
     desc: "Developed a Telegram Bot in Java to perform essential functions, such as delivering tailored encouragement messages based on users' responses to specific prompts",
+    link: "https://github.com/andrelau123/Andre-s-telegram-bot",
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const Menu = [
     title: "From fish to shark: My journey to poker mastery",
     catagory: "writing",
     desc: "Poker tips and tricks",
+    link: "https://medium.com/illuminations-mirror/from-fish-to-shark-my-journey-to-poker-mastery-fb78cea9dc71",
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ const Menu = [
     title: "Sports Betting — The Hidden Dangers",
     catagory: "writing",
     desc: "the hidden pitfalls of sports betting",
+    link: "https://medium.com/to-the-summit/sports-betting-the-hidden-dangers-4ca626e4d825",
   },
 ];
 

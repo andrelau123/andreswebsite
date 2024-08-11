@@ -11,6 +11,10 @@
   transition: 0.3s;
 }
 
+.selected {
+  color: var(--first-color);
+}
+
 .work__item:hover {
   color: var(--first-color);
 }
@@ -38,15 +42,15 @@
   opacity: 0;
 }
 
-.work__mask:hover {
+.work__card:hover .work__mask {
   opacity: 0.9;
 }
 
 .work__catagory {
   color: #fff;
   background-color: var(--first-color);
-  border-top-left-radius: 0.98rem;
-  border-top-right-radius: 0.98rem;
+  border-bottom-left-radius: 0.98rem;
+  border-bottom-right-radius: 0.98rem;
   position: absolute;
   top: 0;
   left: 1.5rem;
@@ -63,16 +67,38 @@
   margin: 0 0 0 0.98rem;
   padding: 0 1.25rem;
   position: absolute;
-  top: 3.75rem;
+  top: 2.25rem;
   transform: translateY(30px);
   transition: 0.3s;
   opacity: 0;
 }
 
+.work__title:hover .work__title {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.work__desc {
+  color: #fffcfc;
+  font-size: var(--smaller-font-size);
+  margin: 0 0 0 0.98rem;
+  padding: 0 1.25rem;
+  position: absolute;
+  top: 5.95rem;
+  transform: translateY(30px);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.work__desc:hover .work__desc {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .work__button {
   color: #fff;
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 1.3rem;
   left: 1.5rem;
   font-size: var(--h3-font-size);
   display: block;
@@ -92,7 +118,8 @@
 }
 
 .work__card:hover .work__title,
-.work__card:hover .work__catagory {
+.work__card:hover .work__catagory,
+.work__card:hover .work__desc {
   opacity: 1;
   transform: translateY(0);
 }
