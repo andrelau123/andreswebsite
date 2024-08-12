@@ -8,7 +8,6 @@ import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Pictures from "./components/Pictures/Pictures";
-import Blog from "./components/blog/Blog";
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Resume />
         <Portfolio />
         <Pictures />
-        <Blog />
         <Contact />
       </main>
     </>

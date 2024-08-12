@@ -16,7 +16,7 @@ const Portfolio = () => {
   const handlenum = (num) => setnum(num);
   return (
     <section className="work container section" id="work">
-      <h2 className="section__title">Recent works</h2>
+      <h2 className="section__title">recent works.</h2>
 
       <div className="work__filters">
         <span

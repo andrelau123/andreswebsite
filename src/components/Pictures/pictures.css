@@ -1,0 +1,8 @@
+.picture__container {
+  margin-bottom: 100px;
+}
+
+.section__subtitle {
+  padding: 1.875rem;
+  font-size: var(--small-font-size);
+}

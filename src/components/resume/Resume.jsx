@@ -63,7 +63,7 @@ const Resume = () => {
 
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title">Qualifications</h2>
+      <h2 className="section__title">qualifications.</h2>
 
       <div className="resume__container">
         <div className="resume__tab">

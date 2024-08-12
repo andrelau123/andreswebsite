@@ -8,7 +8,7 @@ import Button from "./Button";
 const About = () => {
   return (
     <section className="about container section" id="about">
-      <h2 className="section__title">About myself</h2>
+      <h2 className="section__title">about myself.</h2>
       <div className="about__container grid">
         <Example />
         <div className="about__data grid">
